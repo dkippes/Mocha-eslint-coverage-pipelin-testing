@@ -6,14 +6,14 @@ It has:
  - eslint
 
 ## Install first:
-npm i mocha chain --save-dev
-npm i nyc --save-dev
-npm i --save-dev eslint
+`npm i mocha chain --save-dev` </br>
+`npm i nyc --save-dev` </br>
+`npm i --save-dev eslint` </br>
 
 ## Run:
-npm run test
-npm run coverage
-npm run lint
+`npm run test`  </br>
+`npm run coverage`  </br>
+`npm run lint`  </br>
 
 ## For eslint run in VS terminar:
-'./node_modules/.bin/eslint --init'
+`./node_modules/.bin/eslint --init`
