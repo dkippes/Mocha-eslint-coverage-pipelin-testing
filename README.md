@@ -15,5 +15,5 @@ It has:
 `npm run coverage`  </br>
 `npm run lint`  </br>
 
-## For eslint run in VS terminar:
+## For eslint run in VS terminal:
 `./node_modules/.bin/eslint --init`
