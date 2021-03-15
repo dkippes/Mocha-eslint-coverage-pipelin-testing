@@ -1,0 +1,16 @@
+npm i mocha chain --save-dev
+npm i nyc --save-dev
+npm i --save-dev eslint
+
+# Iniciar eslint en el terminar de VS
+./node_modules/.bin/eslint --init
+
+"scripts": {
+	"lint": "eslint ./",
+    "test": "mocha || true",
+    "coverage": "nyc --reporter=html npm run test"
+  },
+
+npm run test
+npm run coverage
+npm run lint
